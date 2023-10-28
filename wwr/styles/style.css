@@ -95,7 +95,7 @@ main section img{
     grid-row: 4/9;
 }
 .msg{
-    background: color #003049;
+    background-color: #003049;
     border: 5px solid #F77F00;
     border-radius: 10px;
     line-height: 1.5em;
