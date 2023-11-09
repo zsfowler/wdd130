@@ -11,14 +11,6 @@ main{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-.page-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 10%;
-    grid-row-gap: 5%;
-    padding: 50px;
-}
 nav{
     display: flex;
     justify-content: space-around;
@@ -127,30 +119,6 @@ main section img{
     grid-column: 8/10;
     grid-row: 2/3;
 }
-.rivers-one{
-    grid-column: 1/2;
-    grid-row: 1/1;
-}
-.text-one{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.rivers-two{
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-.text-two{
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-.rivers-three{
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-.text-three{
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
 footer{
     background-color: #D62828;
     color: black;
@@ -221,6 +189,42 @@ footer p a:hover {
 }
 footer .social img{
     padding-top: 15px;
+}
+/* rivers page */
+.page-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10%;
+    grid-row-gap: 5%;
+    padding: 50px;
+}
+.rivers-one{
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+.text-one{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 26px;
+}
+.rivers-two{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.text-two{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 28px;
+}
+.rivers-three{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.text-three{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 28px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
