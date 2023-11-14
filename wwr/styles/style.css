@@ -7,7 +7,7 @@ font-family: 'Zeyada', 'roboto', 'cursive'; */
     margin: 0 auto;
     text-align: center;
 }
-main{
+.home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
