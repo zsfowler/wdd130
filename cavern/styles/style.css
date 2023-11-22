@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Russo+One&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
 header {
-    background-color: #003049;
+    background-color: #202020;
     display: grid;
     grid-template-columns: 150px auto;
+    font-family: 'russo one';
 }
 nav{
     display: flex;
@@ -9,24 +16,24 @@ nav{
 }
 nav a {
     text-align: center;
-    color: #F77F00;
+    color: #DDE620;
     text-decoration: none;
     padding: 35px;
 }
 nav a:hover {
-    background-color: #FCBF49;
-    color: #003049;
+    background-color: #2E2E2E;
+    color: #ffffff;
 }
 body {
-    background-color:  #003049 ; 
-    color: #F77F00;
-    font-family: 'Ubuntu', 'roboto', 'sans-serif';
-    font-size: 22px;
+    background-color:  #2E2E2E ; 
+    color: #DDE620;
+    font-family: 'antic', 'roboto', 'sans-serif';
+    font-size: 30px;
     margin: 0;
     padding: 0;
 }
 .logo{
-    width: 100px;
+    width: 150px;
 }
 #logo_link{
     padding-top: 5px;
@@ -52,6 +59,7 @@ body {
     grid-row: 1/2;
     width: 100%;
     text-align: center;
+    font-family: 'russo one';
 }
 .home-saying{
     grid-column: 2/3;
@@ -74,20 +82,21 @@ p{
     grid-column: 3/4;
 }
 footer{
-    background-color: #D62828;
-    color: black;
+    background-color: #202020;
+    color: #DDE620;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'russo one';
 }
 footer a{
-    color: #003049;
+    color: #DDE620;
     text-decoration: none;
 }
 footer a:hover{
-    color: #003049;
+    color: #ffffff;
 }
 footer p {
     font-size: 1.2em;
