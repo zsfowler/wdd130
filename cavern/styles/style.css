@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic&family=Russo+One&display=swap');
 #content {
-    /* max-width: 1600px; */
+    max-width: 1600px;
     margin: 0 auto;
     text-align: center;
 }
@@ -28,12 +28,12 @@ body {
     background-color:  #2E2E2E ; 
     color: #DDE620;
     font-family: 'antic', 'roboto', 'sans-serif';
-    font-size: 30px;
+    font-size: 22px;
     margin: 0;
     padding: 0;
 }
 .logo{
-    width: 150px;
+    width: 140px;
 }
 #logo_link{
     padding-top: 5px;
