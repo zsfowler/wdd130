@@ -146,6 +146,9 @@ h3{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20px 1fr 150px 1fr 150px;
 }
+#form-par{
+    line-height: 1.5em;
+}
 #hero-img1-form{
     width: 90%;
     grid-column: 1/2;
